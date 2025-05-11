@@ -1,0 +1,52 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.7.2,<3.8.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"a89eae928",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "ner":[
+      "COLLEGE"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "ner"
+  ],
+  "components":[
+    "tok2vec",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.9012345679,
+    "ents_p":0.8902439024,
+    "ents_r":0.9125,
+    "ents_per_type":{
+      "COLLEGE":{
+        "p":0.8902439024,
+        "r":0.9125,
+        "f":0.9012345679
+      }
+    },
+    "tok2vec_loss":1133.354101007,
+    "ner_loss":1670.3785169158
+  }
+}
